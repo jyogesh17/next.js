@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.singlePost {
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.oneItem {
+  height: 200px;
+  width: 200px;
+  background-color: bisque;
+}
+
+.title {
+  margin: 10px 10px 0 15px;
+}
