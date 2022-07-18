@@ -9,8 +9,6 @@ const NewBlogPost = () => {
       .then((data) => setPost(data))
   }, [])
 
-  console.log(getPost)
-
   return (
     <section>
       <div className="singlePost">

@@ -32,7 +32,7 @@ const RandomImage = () => {
   return (
     <>
       <div className="h-[300px] w-[300px] m-auto bg-slate-300 mt-10 mb-5">
-        <img src={singleImage} />
+        <img src={singleImage} alt="Random Image" />
       </div>
       <button
         type="button"
